@@ -4,12 +4,12 @@ type IPAddr [4]byte
 
 
 
-func (bits IPAddr) String() string {
+func (bits IPAddr) String() string 
 	var s string
 	
-	for _, bit := range bits {
+	for _, bits := range bits {
 		s += fmt.Sprintf("%v.", bit)	
-	}
+	
 	return fmt.Sprintf("%v", s)
 }
 
